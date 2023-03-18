@@ -1,0 +1,116 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0 0 0 0;
+}
+
+.kontainer{
+    width: 100%;
+    height: 95vh;
+    /* background-image: linear-gradient(rgba(62, 62, 62, 0.75), rgba(194, 194, 194, 0.75))
+    , url(876647-horns-Rhino-Grass.jpg); */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+nav a:hover{
+    color: white;
+}
+
+
+.navbar{
+    display: flex;
+    position: relative;
+    width: 100%;
+    z-index: 10;
+}
+
+nav{
+    width: 100%;
+    padding: 20px 40px 0 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* background-color: #F1D6AB; */
+    background-color: #a0855c;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.logo{
+    width: 40px;
+    padding-top: 10px;
+    padding-bottom: 7px;
+    padding-left: 20px;
+    display: flex;
+    /* background-color: #F1D6AB; */
+    background-color: #a0855c;
+
+}
+
+.desc-logo{
+    padding: 17px 0 0 10px;
+    /* background-color: #F1D6AB; */
+    background-color: #a0855c;
+    font-size: 12px;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a{
+    color: rgb(49, 47, 47);
+    font-weight: bold;
+}
+
+.konten{
+    margin: 30px 30px 0 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 70px;
+}
+
+.isi-konten{
+    margin-top: 40px;
+    /* background-color: lightcoral; */
+    height: 200px;
+}
+
+footer{
+    padding: 5px 0 5px 22px;
+    color: white;
+    font-size: 15px;
+    background-color: #39480c;
+}
+
+.main-conten{
+    margin-top: 2%;
+    margin-left: 33%;
+    background-color: #39480c;
+    display: inline-block;
+    padding: 10px 10px 10px 10px;
+    color: #f1d6ab;
+    font-size: 40px;
+    border-radius: 50px;
+
+}
+
+.isi-konten{
+    border-style: solid;
+    color: black;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 80px;
+    font-size: 40px;
+    border-width: 10px;
+    border-color: #f1d6ab;
+    color: #39480c;
+    font-weight: bold;
+    transition: background-color 0.45s;
+}
+
+.isi-konten:hover{
+    color: #f1d6ab;
+    background-color: #39480c;
+}
